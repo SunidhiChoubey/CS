@@ -87,6 +87,8 @@ int main() {
     return 0;
 }
 ~~~
+## Ouput-
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20025409.png)
 ## CONCLUSION-
 We learnt how to use decision making statements like if, else if, switch, default in C++ programming language.
 
@@ -209,5 +211,10 @@ int main() {
     return 0;
 }
 ~~~
+## Output-
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024826.png)
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024834.png)
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024842.png)
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024850.png)
 ## CONCLUSION-
 We learnt how to implement different typez of decision making statement loops like for, while and do while in C++ programming language.
