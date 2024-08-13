@@ -121,18 +121,8 @@ These loops are essential for performing repetitive tasks in programming. The ch
 #include <iostream>
 using namespace std;
 
-int main() {
-    int s[100][100];
-    for (int i = 0; i < 100; ++i) {
-        for (int j = 0; j < 100; ++j) {
-            s[i][j] = i * 100 + j;
-        }
-    }
-
-    for (int i = 0; i <= 10; i++) {
-        cout << i << endl;
-    }
-
+int main()
+{
 
     int x = 0;
     cout << "While loop" << endl;
@@ -149,15 +139,26 @@ int main() {
     } while (y < 4);
 
 
-    int a = 0, b = 0;
+    
     cout << "Nested for loop" << endl;
-    for (int i = 0; i < 4; i++) {
-        a++;
-        for (int j = 0; j < 4; j++) {
-            b++;
-            cout << s[a][b] << " ";
+    int  a[3][3];
+    for(int i =0;i<3;i++)
+    {
+        for(int j = 0;j<3;j++)
+        {
+            cout<<"Enter element:("<<i+1<<j+1<<") "<<endl;
+            cin>>a[i][j];
         }
-        cout << endl;
+    }
+
+    for(int i =0;i<3;i++)
+    {
+        for(int j = 0;j<3;j++)
+        {
+            cout<<a[i][j];
+            cout<<" ";
+        }
+        cout<<"\t"<<endl;
     }
 
     int k=0,l=0;
