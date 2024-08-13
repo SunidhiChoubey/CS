@@ -123,6 +123,11 @@ using namespace std;
 
 int main()
 {
+    cout<<"For Loop"<<endl;
+    for(int i =0;i<10;i++)
+    {
+        cout<<i<<endl;
+    }
 
     int x = 0;
     cout << "While loop" << endl;
