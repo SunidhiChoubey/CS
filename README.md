@@ -123,104 +123,104 @@ using namespace std;
 
 int main()
 {
-    cout<<"For Loop"<<endl;
-    for(int i =0;i<10;i++)
+    cout << "For Loop" << endl;
+    for (int i = 0; i < 10; i++)
     {
-        cout<<i<<endl;
+        cout << i << endl;
     }
 
     int x = 0;
     cout << "While loop" << endl;
-    while (x < 10) {
+    while (x < 10)
+    {
         cout << x << endl;
         x++;
     }
 
     int y = 0;
     cout << "Do-while loop" << endl;
-    do {
+    do
+    {
         y++;
         cout << y << endl;
     } while (y < 4);
 
+    cout << "Nested for loop" << endl;
+    int a[3][3];
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cout << "Enter element:(" << i + 1 << "," << j + 1 << ") " << endl;
+            cin >> a[i][j];
+        }
+    }
+
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cout << a[i][j];
+            cout << " ";
+        }
+        cout << endl;
+    }
 
     
-    cout << "Nested for loop" << endl;
-    int  a[3][3];
-    for(int i =0;i<3;i++)
+    // Pattern
+    cout << "Pattern printing" << endl;
+    for (int i = 0; i <= 5; i++)
     {
-        for(int j = 0;j<3;j++)
+        for (int j = 1; j <= 5 - i; j++)
         {
-            cout<<"Enter element:("<<i+1<<j+1<<") "<<endl;
-            cin>>a[i][j];
+            cout << " ";
         }
+        for (int k = 1; k <= 2 * i - 1; k++)
+        {
+            cout << "*";
+        }
+        cout << endl;
     }
 
-    for(int i =0;i<3;i++)
-    {
-        for(int j = 0;j<3;j++)
-        {
-            cout<<a[i][j];
-            cout<<" ";
-        }
-        cout<<"\t"<<endl;
-    }
-
-    int k=0,l=0;
-    while(k<5)
-    {
-        while(l<5)
-        {
-            k++;
-            l++;
-            cout<<k<<endl;
-            cout<<l<<endl;
-        }
-    }
-
-    //pattern
-
-    for(int i = 0;i<=5;i++)
-    {
-        for(int j = 1;j<= 5-i;j++)
-        {
-            cout<<" ";
-        }
-        for(int k = 1;k<=2*i-1;k++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-
-        // for inside while
-
+    // For loop inside while loop
     int q = 0;
-
-    while(q<5)
-        {
-            for(int i = 0;i<5;i++)
-                {
-                    cout<<"Hello World"<<endl; 
-                }
-                q++;
-        }
-        
-    for(int i =0;i<10;i++)
+    cout << "For loop inside while loop" << endl;
+    while (q < 5)
     {
-        while(i<5)
+        for (int i = 0; i < 5; i++)
         {
-            cout<<"World hello"<<endl;
-            i++;  
+            cout << "Hello World" << endl;
         }
-    }    
+        q++;
+    }
+
+    // While loop inside for loop
+    cout << "While loop inside for loop" << endl;
+    for (int i = 0; i < 10; i++)
+    {
+        while (i < 5)
+        {
+            cout << "World hello" << endl;
+            i++;
+        }
+    }
+
     return 0;
 }
 ~~~
-## Output-
-![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024826.png)
-![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024834.png)
-![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024842.png)
-![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-06%20024850.png)
+## OUTPUT
+![](
+
+
+
+    
+
+    
+   
+       
+        
+        
+                    
+
 ## CONCLUSION-
 We learnt how to implement different typez of decision making statement loops like for, while and do while in C++ programming language.
