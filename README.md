@@ -209,8 +209,12 @@ int main()
 }
 ~~~
 ## OUTPUT
-![](
-
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-20%20001919.png)
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-20%20001928.png)
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-20%20001938.png)
+![](https://github.com/SunidhiChoubey/CS/blob/main/Screenshot%202024-08-20%20002004.png)
+## CONCLUSION
+We learnt how to use loops and nested loops.
 
 
     
